@@ -1,0 +1,57 @@
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*.pem
+*.key
+
+# Hugging Face model cache & local model staging
+.cache/
+huggingface/
+distilgpt2_model/
+models--*/
+
+# Model weights, checkpoints & TorchServe archives
+*.mar
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.onnx
+checkpoints/
+model_store/
+
+# Temporary files & logs
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+tmp/
+temp/
+logs/
+*.log
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
